@@ -1,0 +1,269 @@
+{
+	"id": "d2740ea0-0f1d-e9f2-39c7-6191f9e6147f",
+	"name": "User collection",
+	"description": "",
+	"order": [
+		"84602410-5d14-b92c-0b26-47aa0f40c228",
+		"6e9bb034-5b09-3fad-a57b-2771328a850b",
+		"94073169-0791-1f02-89ee-9a1f9e4ce04d",
+		"11aed15b-bbb2-cc43-c313-3b780c827887",
+		"e30035d0-2efd-d6d2-7fb5-6d26eb062cb4"
+	],
+	"folders": [],
+	"timestamp": 1459498943831,
+	"owner": "",
+	"remoteLink": "",
+	"public": false,
+	"requests": [
+		{
+			"id": "11aed15b-bbb2-cc43-c313-3b780c827887",
+			"headers": "",
+			"url": "http://localhost/nairobits.com/api/user/1",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "email_address",
+					"value": "kanja61testt@gmail.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "12345678",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "mwangi kanja",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "username",
+					"value": "kanjamktestt",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "phone_number",
+					"value": "1234567890",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_category",
+					"value": "admin",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1459520727161,
+			"name": "http://localhost/nairobits.com/api/user",
+			"description": "updating an existing user identified by the given id",
+			"collectionId": "d2740ea0-0f1d-e9f2-39c7-6191f9e6147f",
+			"responses": []
+		},
+		{
+			"id": "6e9bb034-5b09-3fad-a57b-2771328a850b",
+			"headers": "",
+			"url": "http://localhost/nairobits.com/api/user/1",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "email_address",
+					"value": "kanja61testt@gmail.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "12345678",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "mwangi kanja",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "username",
+					"value": "kanjamktestt",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "phone_number",
+					"value": "1234567890",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_category",
+					"value": "admin",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1459520621778,
+			"name": "http://localhost/nairobits.com/api/user",
+			"description": "retrieving a user identified by the given id",
+			"collectionId": "d2740ea0-0f1d-e9f2-39c7-6191f9e6147f",
+			"responses": []
+		},
+		{
+			"id": "84602410-5d14-b92c-0b26-47aa0f40c228",
+			"headers": "",
+			"url": "http://localhost/nairobits.com/api/users",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "username",
+					"value": "kimani",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1459520251119,
+			"name": "http://localhost/nairobits.com/api/users",
+			"description": "retrieve all users",
+			"collectionId": "d2740ea0-0f1d-e9f2-39c7-6191f9e6147f",
+			"responses": []
+		},
+		{
+			"id": "94073169-0791-1f02-89ee-9a1f9e4ce04d",
+			"headers": "",
+			"url": "http://localhost/nairobits.com/api/user",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "PUT",
+			"data": [
+				{
+					"key": "email_address",
+					"value": "kanja61testt@gmail.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "12345678",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "mwangi kanja",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "username",
+					"value": "kanjamktestt",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "phone_number",
+					"value": "1234567890",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_category",
+					"value": "admin",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1459520273151,
+			"name": "http://localhost/nairobits.com/api/user",
+			"description": "creating a new user",
+			"collectionId": "d2740ea0-0f1d-e9f2-39c7-6191f9e6147f",
+			"responses": []
+		},
+		{
+			"id": "e30035d0-2efd-d6d2-7fb5-6d26eb062cb4",
+			"headers": "",
+			"url": "http://localhost/nairobits.com/api/user/1",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "DELETE",
+			"data": [
+				{
+					"key": "email_address",
+					"value": "kanja61testt@gmail.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "12345678",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "mwangi kanja",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "username",
+					"value": "kanjamktestt",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "phone_number",
+					"value": "1234567890",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_category",
+					"value": "admin",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1459520896774,
+			"name": "http://localhost/nairobits.com/api/user",
+			"description": "delete a user identified by the given id",
+			"collectionId": "d2740ea0-0f1d-e9f2-39c7-6191f9e6147f",
+			"responses": []
+		}
+	]
+}

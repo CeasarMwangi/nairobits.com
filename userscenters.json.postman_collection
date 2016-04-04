@@ -1,0 +1,30 @@
+{
+	"id": "63b4eb3e-6912-eb96-8014-3ff071091034",
+	"name": "userscenters",
+	"requests": [
+		{
+			"id": "f0d11c94-33e0-f235-cfdb-d81b848c4e5c",
+			"headers": "",
+			"url": "http://localhost/nairobits.com/api/userscenters",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "63b4eb3e-6912-eb96-8014-3ff071091034",
+			"data": [],
+			"dataMode": "urlencoded",
+			"name": "http://localhost/nairobits.com/api/userscenters",
+			"description": "SELECT users.name,users.username,users.phone_number,users.user_category,users.status,users.email_address,users.user_thumbnail,centers.name,centers.location FROM users INNER JOIN centers ON users.current_center_id=centers.center_id WHERE centers.status='active' AND users.status='active'",
+			"descriptionFormat": "html",
+			"time": 1459697711161,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	],
+	"order": [
+		"f0d11c94-33e0-f235-cfdb-d81b848c4e5c"
+	],
+	"timestamp": 1459697711161
+}

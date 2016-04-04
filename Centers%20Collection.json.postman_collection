@@ -1,0 +1,161 @@
+{
+	"id": "cf3ad14e-5f11-3a55-4a0d-78fcd759f9a6",
+	"name": "Centers Collection",
+	"description": "",
+	"order": [
+		"27aa51e9-f0f7-0b6c-68ff-43a4547c5254",
+		"2ec319ea-9f5b-6d92-09b2-7610e636225f",
+		"bce58d30-33d9-cc86-db83-1081bba53c62",
+		"7f2be13d-653b-d01a-ec53-820ded8b8ed0",
+		"0a619b6d-2fc2-aeb2-8a9e-065a561223e9"
+	],
+	"folders": [],
+	"timestamp": 1459512255223,
+	"owner": "",
+	"remoteLink": "",
+	"public": false,
+	"requests": [
+		{
+			"id": "0a619b6d-2fc2-aeb2-8a9e-065a561223e9",
+			"headers": "",
+			"url": "http://localhost/nairobits.com/api/center/1",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1459520999744,
+			"name": "http://localhost/nairobits.com/api/center",
+			"description": "deleting a center identified by the given id",
+			"collectionId": "cf3ad14e-5f11-3a55-4a0d-78fcd759f9a6",
+			"responses": []
+		},
+		{
+			"id": "27aa51e9-f0f7-0b6c-68ff-43a4547c5254",
+			"headers": "",
+			"url": "http://localhost/nairobits.com/api/centers/",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "cf3ad14e-5f11-3a55-4a0d-78fcd759f9a6",
+			"data": [
+				{
+					"key": "username",
+					"value": "kimani",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "http://localhost/nairobits.com/api/centers/",
+			"description": "retrieve all centers with status active",
+			"descriptionFormat": "html",
+			"time": 1459518761700,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "2ec319ea-9f5b-6d92-09b2-7610e636225f",
+			"headers": "",
+			"url": "http://localhost/nairobits.com/api/center/1",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "username",
+					"value": "kimani",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1459520526656,
+			"name": "http://localhost/nairobits.com/api/centers/",
+			"description": "retrieve a centers with status active and identified by the given id",
+			"collectionId": "cf3ad14e-5f11-3a55-4a0d-78fcd759f9a6",
+			"responses": []
+		},
+		{
+			"id": "7f2be13d-653b-d01a-ec53-820ded8b8ed0",
+			"headers": "",
+			"url": "http://localhost/nairobits.com/api/center/1",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "location",
+					"value": "South B",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "capacity",
+					"value": "50",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1459521135616,
+			"name": "http://localhost/nairobits.com/api/center",
+			"description": "updating an existing center identified by the given id",
+			"collectionId": "cf3ad14e-5f11-3a55-4a0d-78fcd759f9a6",
+			"responses": []
+		},
+		{
+			"id": "bce58d30-33d9-cc86-db83-1081bba53c62",
+			"headers": "",
+			"url": "http://localhost/nairobits.com/api/center",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "PUT",
+			"data": [
+				{
+					"key": "name",
+					"value": "Main Center",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "location",
+					"value": "South B",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "capacity",
+					"value": "50",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1459513484875,
+			"name": "http://localhost/nairobits.com/api/center",
+			"description": "creating a new center",
+			"collectionId": "cf3ad14e-5f11-3a55-4a0d-78fcd759f9a6",
+			"responses": []
+		}
+	]
+}

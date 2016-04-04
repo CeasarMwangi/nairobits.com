@@ -1,0 +1,203 @@
+{
+	"id": "b5ac94e7-c7ba-c29a-ba6a-3cee03be94e1",
+	"name": "Asset Collection",
+	"description": "",
+	"order": [
+		"3a5afbec-27f2-2b08-04b4-fa2d5c3f3809",
+		"5d90900d-5d56-1453-9efa-c7a726d5d6c7",
+		"de0dec50-7376-c041-a0ea-760905952ad5",
+		"ab9d3dee-095b-089e-11a2-adc9dbdd99b4",
+		"78bb0507-8456-b961-fea0-64b06a545bf4"
+	],
+	"folders": [],
+	"timestamp": 1459566425013,
+	"owner": 0,
+	"remoteLink": "",
+	"public": false,
+	"requests": [
+		{
+			"id": "3a5afbec-27f2-2b08-04b4-fa2d5c3f3809",
+			"headers": "",
+			"url": "http://localhost/nairobits.com/api/assets",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "location",
+					"value": "South B",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "capacity",
+					"value": "50",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1459567393290,
+			"name": " http://localhost/nairobits.com/api/asset/1",
+			"description": "retrieving a single asset identified by the given id and status is active",
+			"collectionId": "b5ac94e7-c7ba-c29a-ba6a-3cee03be94e1",
+			"responses": []
+		},
+		{
+			"id": "5d90900d-5d56-1453-9efa-c7a726d5d6c7",
+			"headers": "",
+			"url": "http://localhost/nairobits.com/api/assets",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "location",
+					"value": "South B",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "capacity",
+					"value": "50",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1459567354955,
+			"name": "http://localhost/nairobits.com/api/assets",
+			"description": "retrieve all assets whose status is active",
+			"collectionId": "b5ac94e7-c7ba-c29a-ba6a-3cee03be94e1",
+			"responses": []
+		},
+		{
+			"id": "78bb0507-8456-b961-fea0-64b06a545bf4",
+			"headers": "",
+			"url": "http://localhost/nairobits.com/api/asset/1",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1459601203533,
+			"name": "http://localhost/nairobits.com/api/asset/1",
+			"description": "delete an asset identified by the given id",
+			"collectionId": "b5ac94e7-c7ba-c29a-ba6a-3cee03be94e1",
+			"responses": []
+		},
+		{
+			"id": "ab9d3dee-095b-089e-11a2-adc9dbdd99b4",
+			"headers": "",
+			"url": "http://localhost/nairobits.com/api/asset/1",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "b5ac94e7-c7ba-c29a-ba6a-3cee03be94e1",
+			"data": [
+				{
+					"key": "nairobitsbarcode",
+					"value": "2222221",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "serialnumber",
+					"value": "1111112",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "category_id",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "currentcenter_id",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "http://localhost/nairobits.com/api/asset/1",
+			"description": "updating a single asset identified by the given id",
+			"descriptionFormat": "html",
+			"time": 1459570628856,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "de0dec50-7376-c041-a0ea-760905952ad5",
+			"headers": "",
+			"url": "http://localhost/nairobits.com/api/asset",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "PUT",
+			"data": [
+				{
+					"key": "nairobitsbarcode",
+					"value": "222222",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "serialnumber",
+					"value": "111111",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "category_id",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "currentcenter_id",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "specifications",
+					"value": "2 gb ram",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "condition",
+					"value": "good",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1459568642474,
+			"name": "http://localhost/nairobits.com/api/asset",
+			"description": "creating a new asset item",
+			"collectionId": "b5ac94e7-c7ba-c29a-ba6a-3cee03be94e1",
+			"responses": []
+		}
+	]
+}
