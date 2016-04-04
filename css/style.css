@@ -1,0 +1,20 @@
+.top-row{
+	margin-bottom: 50px;
+}
+.user,.asset{
+	border-bottom: 2px solid #eeeeee;
+	margin-top: 10px;
+}
+.edit-user{
+	margin-top: 30px;
+}
+.fix{
+	margin-top: 10px;
+	position: fixed;
+	z-index: 999;
+	margin-left:calc(35%);
+}
+.fix input{
+	border-radius: 5px;
+	height: 30px;
+}

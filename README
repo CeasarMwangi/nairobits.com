@@ -1,0 +1,81 @@
+###################
+What is CodeIgniter
+###################
+|
+|--CodeIgniter PHP framework
+|
+|--Download source: https://codeigniter.com
+|
+|--Require php>=5.2.4
+|
+|--for RESTful API you need the following libraries:- [just download them from the internet]
+|--
+   |--application/config/rest.php
+   |--application/libraries/Format.php
+   |--application/libraries/REST_Controller.php
+   |--application/core/MY_Model.php
+   |--application/libraries/MY_Form_validation.php
+   |--application/config/form_validation.php
+
+
+###################
+NB: RESTful API POST, DELETE,PUT HTTP etc requests cannot be acccessed directly from the browser url,
+as a result, you must use client application to send such requests [e.g google chrome postman application]
+###################
+
+###################
+NB: Remember to set the   RewriteBase in the .htaccess file at the project root as follows:-
+NB: ensure the folder reflects the project's folder name
+
+  RewriteBase /nairobits.com
+
+  Where:- nairobits.com is the project folder
+###################
+
+
+CodeIgniter is an Application Development Framework - a toolkit - for people
+who build web sites using PHP. Its goal is to enable you to develop projects
+much faster than you could if you were writing code from scratch, by providing
+a rich set of libraries for commonly needed tasks, as well as a simple
+interface and logical structure to access these libraries. CodeIgniter lets
+you creatively focus on your project by minimizing the amount of code needed
+for a given task.
+
+# Contributing to CodeIgniter
+CodeIgniter is a community driven project and accepts contributions of code and documentation from the community. If you find a bug or documentation error, open an issue on git hub.
+
+###################
+TODOS
+###################
+
+# Setting the application environment to production?
+
+
+###################
+AUTOLOAD libraries and helper
+application/config/autoload.php
+###################
+
+$autoload['libraries'] = array('database', 'session','form_validation');
+
+$autoload['helper'] = array('url', 'html','form');
+
+###################
+Configurations
+application/config/config.php
+###################
+	1. $config['base_url'] = 'http://localhost/nairobits.com/';
+	2. $config['index_page'] = ''; =>set it to empty
+	3. $config['encryption_key'] = 'AIzaSyBtW7Y9VM1VFUMZAbnhzHHX2d7TKZwz6uM'; => set your encryption key
+	4. $config['csrf_protection'] = TRUE; => enable csrf protection
+
+###################
+Configure database cretentials:- username password and database name
+application/config/database.php
+###################
+
+
+###################
+Edit the routes in
+application/config/routes.php
+###################
